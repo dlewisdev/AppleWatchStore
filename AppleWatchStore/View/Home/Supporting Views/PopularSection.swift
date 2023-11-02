@@ -11,7 +11,8 @@ struct PopularSection: View {
     var body: some View {
         VStack {
             SectionHeader(title: "Popular", icon: "slider.horizontal.3")
-            
+                .padding(.horizontal)
+
             LazyVGrid(columns: Constants.columns, spacing: 20) {
                 ForEach(0..<4) { _ in
                     NavigationLink {
@@ -19,6 +20,7 @@ struct PopularSection: View {
                     } label: {
                         GridProductItem()
                     }
+                    .buttonStyle(.plain)
                 }
             }
         }
@@ -26,5 +28,7 @@ struct PopularSection: View {
 }
 
 #Preview {
-    PopularSection()
+    NavigationStack {
+        PopularSection()
+    }
 }
