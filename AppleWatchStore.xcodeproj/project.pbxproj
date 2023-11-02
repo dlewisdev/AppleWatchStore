@@ -22,6 +22,8 @@
 		71538A002AF439C2004CC14D /* GridProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715389FF2AF439C2004CC14D /* GridProductItem.swift */; };
 		71538A022AF43CAC004CC14D /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71538A012AF43CAC004CC14D /* Text+Extension.swift */; };
 		71538A042AF43EEF004CC14D /* PopularSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71538A032AF43EEF004CC14D /* PopularSection.swift */; };
+		71538A062AF442BC004CC14D /* CategoryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71538A052AF442BC004CC14D /* CategoryListItem.swift */; };
+		71538A082AF44399004CC14D /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71538A072AF44399004CC14D /* CategorySection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		715389FF2AF439C2004CC14D /* GridProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProductItem.swift; sourceTree = "<group>"; };
 		71538A012AF43CAC004CC14D /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 		71538A032AF43EEF004CC14D /* PopularSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularSection.swift; sourceTree = "<group>"; };
+		71538A052AF442BC004CC14D /* CategoryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListItem.swift; sourceTree = "<group>"; };
+		71538A072AF44399004CC14D /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 				715389FD2AF43374004CC14D /* BrowseSection.swift */,
 				715389FF2AF439C2004CC14D /* GridProductItem.swift */,
 				71538A032AF43EEF004CC14D /* PopularSection.swift */,
+				71538A052AF442BC004CC14D /* CategoryListItem.swift */,
+				71538A072AF44399004CC14D /* CategorySection.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 				715389DF2AF18BC1004CC14D /* ContentView.swift in Sources */,
 				715389FC2AF43198004CC14D /* ButtonStyle+Extension.swift in Sources */,
 				71538A002AF439C2004CC14D /* GridProductItem.swift in Sources */,
+				71538A082AF44399004CC14D /* CategorySection.swift in Sources */,
 				715389DD2AF18BC1004CC14D /* AppleWatchStoreApp.swift in Sources */,
+				71538A062AF442BC004CC14D /* CategoryListItem.swift in Sources */,
 				715389F62AF429D1004CC14D /* CardView.swift in Sources */,
 				71538A042AF43EEF004CC14D /* PopularSection.swift in Sources */,
 				71538A022AF43CAC004CC14D /* Text+Extension.swift in Sources */,
