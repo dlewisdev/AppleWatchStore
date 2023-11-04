@@ -66,6 +66,7 @@ struct CartView: View {
                 Text("Apple Watch Series 8 Apple Watch Series 8")
                     .condensed(.black, size: 18)
                     .lineLimit(2)
+                    
                 
                 Group {
                     Text("$").ultraLight() + Text("999").heavy()
@@ -118,7 +119,42 @@ struct CartView: View {
     }
     
     var cartTotals: some View {
-        Text("Cart Totals")
+        ZStack {
+            Rectangle()
+                .fill(Color.white.opacity(0.2))
+                .frame(height: 200)
+                .background(
+                    .regularMaterial, in: Rectangle()
+                )
+            VStack {
+                HStack {
+                    Text("Subtotal")
+                        .condensed(.bold, size: 18)
+                    Spacer()
+                    Text("$").bold() + Text("999.99").bold(size: 18)
+                }
+                
+                HStack {
+                    Text("Tax")
+                        .condensed(.bold, size: 18)
+                    Spacer()
+                    Text("$").bold() + Text("999.99").bold(size: 18)
+                }
+                
+                Divider()
+                
+                VStack {
+                    HStack {
+                        Text("Total")
+                            .condensed(.black, size: 24)
+                        Spacer()
+                        Text("$").ultraLight(size: 18) + Text("999.99").bold(size: 50)
+                    }
+                }
+            }
+            .padding()
+        }
+        .frame(height: 200)
     }
 }
 
