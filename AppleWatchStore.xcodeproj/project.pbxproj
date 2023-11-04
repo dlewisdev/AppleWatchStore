@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		71331EA22AF6B78B0070D778 /* WideProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71331EA12AF6B78B0070D778 /* WideProductItem.swift */; };
 		71331EA62AF6BDF40070D778 /* ProductDetailDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71331EA52AF6BDF40070D778 /* ProductDetailDescriptionView.swift */; };
+		71331EA82AF6D7840070D778 /* CaseSizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71331EA72AF6D7840070D778 /* CaseSizesView.swift */; };
+		71331EAA2AF6D7C50070D778 /* SizeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71331EA92AF6D7C40070D778 /* SizeItem.swift */; };
 		715389DD2AF18BC1004CC14D /* AppleWatchStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715389DC2AF18BC1004CC14D /* AppleWatchStoreApp.swift */; };
 		715389DF2AF18BC1004CC14D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715389DE2AF18BC1004CC14D /* ContentView.swift */; };
 		715389E12AF18BC3004CC14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715389E02AF18BC3004CC14D /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		71331EA12AF6B78B0070D778 /* WideProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideProductItem.swift; sourceTree = "<group>"; };
 		71331EA52AF6BDF40070D778 /* ProductDetailDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDescriptionView.swift; sourceTree = "<group>"; };
+		71331EA72AF6D7840070D778 /* CaseSizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseSizesView.swift; sourceTree = "<group>"; };
+		71331EA92AF6D7C40070D778 /* SizeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeItem.swift; sourceTree = "<group>"; };
 		715389D92AF18BC1004CC14D /* AppleWatchStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		715389DC2AF18BC1004CC14D /* AppleWatchStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreApp.swift; sourceTree = "<group>"; };
 		715389DE2AF18BC1004CC14D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				71331EA52AF6BDF40070D778 /* ProductDetailDescriptionView.swift */,
+				71331EA72AF6D7840070D778 /* CaseSizesView.swift */,
+				71331EA92AF6D7C40070D778 /* SizeItem.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -311,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71331EA82AF6D7840070D778 /* CaseSizesView.swift in Sources */,
 				715389F42AF4234D004CC14D /* SectionHeader.swift in Sources */,
 				715389F22AF422E7004CC14D /* ScaledFont.swift in Sources */,
 				71538A1E2AF45D9E004CC14D /* FilterSectionView.swift in Sources */,
@@ -323,6 +330,7 @@
 				71538A1C2AF45D70004CC14D /* FilterView.swift in Sources */,
 				71331EA22AF6B78B0070D778 /* WideProductItem.swift in Sources */,
 				71538A082AF44399004CC14D /* CategorySection.swift in Sources */,
+				71331EAA2AF6D7C50070D778 /* SizeItem.swift in Sources */,
 				71538A132AF45082004CC14D /* FavoritesView.swift in Sources */,
 				715389DD2AF18BC1004CC14D /* AppleWatchStoreApp.swift in Sources */,
 				71538A062AF442BC004CC14D /* CategoryListItem.swift in Sources */,
