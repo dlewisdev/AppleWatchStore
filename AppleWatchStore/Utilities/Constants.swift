@@ -20,6 +20,15 @@ enum Constants {
                  
     ]
     
+    
+    static var heart: some View {
+        Image(systemName: "heart")
+            .symbolVariant(.none)
+            .font(.system(size: 24))
+            .padding(.trailing, 20)
+            .padding(.top, 10)
+    }
+    
     static let gradient = Gradient(stops: [
         .init(color: Color(.baseGradientTop), location: 0.2),
         .init(color: Color(.baseGradientBottom), location: 0.5)
