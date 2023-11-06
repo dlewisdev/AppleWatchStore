@@ -36,6 +36,13 @@
 		71538A1A2AF45A03004CC14D /* ProductsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71538A192AF45A03004CC14D /* ProductsGridView.swift */; };
 		71538A1C2AF45D70004CC14D /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71538A1B2AF45D70004CC14D /* FilterView.swift */; };
 		71538A1E2AF45D9E004CC14D /* FilterSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71538A1D2AF45D9E004CC14D /* FilterSectionView.swift */; };
+		71FFDDE72AF94341003491BC /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDE52AF94341003491BC /* HTTPMethod.swift */; };
+		71FFDDEA2AF9436D003491BC /* AppleCareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDE82AF9436D003491BC /* AppleCareView.swift */; };
+		71FFDDEB2AF9436D003491BC /* AddProductReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDE92AF9436D003491BC /* AddProductReview.swift */; };
+		71FFDDED2AF94378003491BC /* ConnectivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDEC2AF94378003491BC /* ConnectivityView.swift */; };
+		71FFDDF12AF9438A003491BC /* WifiCellularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDEE2AF9438A003491BC /* WifiCellularView.swift */; };
+		71FFDDF22AF9438A003491BC /* WristSizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDEF2AF9438A003491BC /* WristSizesView.swift */; };
+		71FFDDF32AF9438A003491BC /* WristItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDF02AF9438A003491BC /* WristItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +76,13 @@
 		71538A192AF45A03004CC14D /* ProductsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsGridView.swift; sourceTree = "<group>"; };
 		71538A1B2AF45D70004CC14D /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		71538A1D2AF45D9E004CC14D /* FilterSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSectionView.swift; sourceTree = "<group>"; };
+		71FFDDE52AF94341003491BC /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		71FFDDE82AF9436D003491BC /* AppleCareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleCareView.swift; sourceTree = "<group>"; };
+		71FFDDE92AF9436D003491BC /* AddProductReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductReview.swift; sourceTree = "<group>"; };
+		71FFDDEC2AF94378003491BC /* ConnectivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityView.swift; sourceTree = "<group>"; };
+		71FFDDEE2AF9438A003491BC /* WifiCellularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiCellularView.swift; sourceTree = "<group>"; };
+		71FFDDEF2AF9438A003491BC /* WristSizesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristSizesView.swift; sourceTree = "<group>"; };
+		71FFDDF02AF9438A003491BC /* WristItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +107,13 @@
 		71331EA42AF6BDDD0070D778 /* SupportingViews */ = {
 			isa = PBXGroup;
 			children = (
+				71FFDDEC2AF94378003491BC /* ConnectivityView.swift */,
 				71331EA52AF6BDF40070D778 /* ProductDetailDescriptionView.swift */,
+				71FFDDEE2AF9438A003491BC /* WifiCellularView.swift */,
+				71FFDDF02AF9438A003491BC /* WristItem.swift */,
+				71FFDDEF2AF9438A003491BC /* WristSizesView.swift */,
+				71FFDDE92AF9436D003491BC /* AddProductReview.swift */,
+				71FFDDE82AF9436D003491BC /* AppleCareView.swift */,
 				71331EA72AF6D7840070D778 /* CaseSizesView.swift */,
 				71331EA92AF6D7C40070D778 /* SizeItem.swift */,
 			);
@@ -119,6 +139,7 @@
 		715389DB2AF18BC1004CC14D /* AppleWatchStore */ = {
 			isa = PBXGroup;
 			children = (
+				71FFDDE12AF94341003491BC /* Networking */,
 				715389EE2AF42192004CC14D /* View */,
 				715389EA2AF420F8004CC14D /* App */,
 				715389EB2AF420FB004CC14D /* Utilities */,
@@ -246,6 +267,47 @@
 			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
+		71FFDDE12AF94341003491BC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				71FFDDE22AF94341003491BC /* Endpoints */,
+				71FFDDE32AF94341003491BC /* Models */,
+				71FFDDE42AF94341003491BC /* Base */,
+				71FFDDE62AF94341003491BC /* Services */,
+			);
+			name = Networking;
+			path = AppleWatchStore/Networking;
+			sourceTree = SOURCE_ROOT;
+		};
+		71FFDDE22AF94341003491BC /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		71FFDDE32AF94341003491BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71FFDDE42AF94341003491BC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				71FFDDE52AF94341003491BC /* HTTPMethod.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		71FFDDE62AF94341003491BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -322,24 +384,31 @@
 				715389F22AF422E7004CC14D /* ScaledFont.swift in Sources */,
 				71538A1E2AF45D9E004CC14D /* FilterSectionView.swift in Sources */,
 				715389DF2AF18BC1004CC14D /* ContentView.swift in Sources */,
+				71FFDDEB2AF9436D003491BC /* AddProductReview.swift in Sources */,
 				71538A112AF45075004CC14D /* CartView.swift in Sources */,
 				71538A0A2AF44C96004CC14D /* HomeView.swift in Sources */,
 				715389FC2AF43198004CC14D /* ButtonStyle+Extension.swift in Sources */,
 				71538A002AF439C2004CC14D /* GridProductItem.swift in Sources */,
 				71331EA62AF6BDF40070D778 /* ProductDetailDescriptionView.swift in Sources */,
 				71538A1C2AF45D70004CC14D /* FilterView.swift in Sources */,
+				71FFDDF12AF9438A003491BC /* WifiCellularView.swift in Sources */,
+				71FFDDF32AF9438A003491BC /* WristItem.swift in Sources */,
 				71331EA22AF6B78B0070D778 /* WideProductItem.swift in Sources */,
 				71538A082AF44399004CC14D /* CategorySection.swift in Sources */,
 				71331EAA2AF6D7C50070D778 /* SizeItem.swift in Sources */,
 				71538A132AF45082004CC14D /* FavoritesView.swift in Sources */,
+				71FFDDF22AF9438A003491BC /* WristSizesView.swift in Sources */,
 				715389DD2AF18BC1004CC14D /* AppleWatchStoreApp.swift in Sources */,
+				71FFDDED2AF94378003491BC /* ConnectivityView.swift in Sources */,
 				71538A062AF442BC004CC14D /* CategoryListItem.swift in Sources */,
 				715389F62AF429D1004CC14D /* CardView.swift in Sources */,
+				71FFDDEA2AF9436D003491BC /* AppleCareView.swift in Sources */,
 				71538A042AF43EEF004CC14D /* PopularSection.swift in Sources */,
 				71538A182AF456D1004CC14D /* Theme.swift in Sources */,
 				71538A1A2AF45A03004CC14D /* ProductsGridView.swift in Sources */,
 				71538A022AF43CAC004CC14D /* Text+Extension.swift in Sources */,
 				71538A0F2AF4506A004CC14D /* ProductsView.swift in Sources */,
+				71FFDDE72AF94341003491BC /* HTTPMethod.swift in Sources */,
 				715389FA2AF43098004CC14D /* CustomButtonStyle.swift in Sources */,
 				715389F82AF429FB004CC14D /* Constants.swift in Sources */,
 				715389FE2AF43374004CC14D /* BrowseSection.swift in Sources */,
