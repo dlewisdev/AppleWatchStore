@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+enum RequestError: String, Error {
+    case decode
+    case invalidURL
+    case invalidResponse
+    case decodable
+    case unknown
+}
