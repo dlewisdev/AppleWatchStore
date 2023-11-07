@@ -43,6 +43,8 @@
 		71FFDDF12AF9438A003491BC /* WifiCellularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDEE2AF9438A003491BC /* WifiCellularView.swift */; };
 		71FFDDF22AF9438A003491BC /* WristSizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDEF2AF9438A003491BC /* WristSizesView.swift */; };
 		71FFDDF32AF9438A003491BC /* WristItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDDF02AF9438A003491BC /* WristItem.swift */; };
+		71FFDE252AFABB82003491BC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDE242AFABB82003491BC /* Endpoint.swift */; };
+		71FFDE272AFABCC2003491BC /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFDE262AFABCC2003491BC /* RequestError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		71FFDDEE2AF9438A003491BC /* WifiCellularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiCellularView.swift; sourceTree = "<group>"; };
 		71FFDDEF2AF9438A003491BC /* WristSizesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristSizesView.swift; sourceTree = "<group>"; };
 		71FFDDF02AF9438A003491BC /* WristItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WristItem.swift; sourceTree = "<group>"; };
+		71FFDE242AFABB82003491BC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		71FFDE262AFABCC2003491BC /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,8 +276,8 @@
 			children = (
 				71FFDDE22AF94341003491BC /* Endpoints */,
 				71FFDDE32AF94341003491BC /* Models */,
-				71FFDDE42AF94341003491BC /* Base */,
 				71FFDDE62AF94341003491BC /* Services */,
+				71FFDDE42AF94341003491BC /* Base */,
 			);
 			name = Networking;
 			path = AppleWatchStore/Networking;
@@ -297,6 +301,8 @@
 			isa = PBXGroup;
 			children = (
 				71FFDDE52AF94341003491BC /* HTTPMethod.swift */,
+				71FFDE242AFABB82003491BC /* Endpoint.swift */,
+				71FFDE262AFABCC2003491BC /* RequestError.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -400,6 +406,7 @@
 				71FFDDF22AF9438A003491BC /* WristSizesView.swift in Sources */,
 				715389DD2AF18BC1004CC14D /* AppleWatchStoreApp.swift in Sources */,
 				71FFDDED2AF94378003491BC /* ConnectivityView.swift in Sources */,
+				71FFDE272AFABCC2003491BC /* RequestError.swift in Sources */,
 				71538A062AF442BC004CC14D /* CategoryListItem.swift in Sources */,
 				715389F62AF429D1004CC14D /* CardView.swift in Sources */,
 				71FFDDEA2AF9436D003491BC /* AppleCareView.swift in Sources */,
@@ -411,6 +418,7 @@
 				71FFDDE72AF94341003491BC /* HTTPMethod.swift in Sources */,
 				715389FA2AF43098004CC14D /* CustomButtonStyle.swift in Sources */,
 				715389F82AF429FB004CC14D /* Constants.swift in Sources */,
+				71FFDE252AFABB82003491BC /* Endpoint.swift in Sources */,
 				715389FE2AF43374004CC14D /* BrowseSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
